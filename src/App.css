@@ -3,7 +3,7 @@
 }
 
 .contain-all{
-  background-image: linear-gradient(rgba(9, 9, 71, 0.85), rgba(0, 0, 0, .85)),
+  background-image: linear-gradient(rgba(9, 9, 71, 0.85), rgba(43, 22, 57, 0.85)),
                 url("https://coolbackgrounds.io/images/unsplash/samuel-zeller-medium-b832fe04.jpg");
     background-repeat: no-repeat;
     background-size: cover;
@@ -28,14 +28,27 @@ li{
 }
 
 .nav-bg{
-  background-color: rgb(49, 21, 21);
+  /* background-color: #c9c9c9; */
+  background-color: #2f274b;
   padding: 10px;
-  box-shadow: 0 0 5px black;
+  box-shadow: 0 0 5px inset black;
 }
 
-.nav-bg > a {
+.nav-bg > div > button {
+  background-color: #ffc107;
+}
+
+.nav-bg > div >  div > a {
   color: blanchedalmond;
-  
+  width: 100%;
+  text-align: center;
+  margin-bottom: 1%;
+}
+
+.cst-nav{
+  width: 15%;
+  border: none;
+  align-self: flex-end;
 }
 
 .nav-bg > a:hover {
@@ -86,7 +99,7 @@ p, a{
   border-radius: 5px;
   background-color: #3e3464;
   padding: 10px;
-  margin-left: 10%;
+  /* margin-left: 10%; */
 }
 
 .cst-flex-basis{
