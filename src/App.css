@@ -50,6 +50,9 @@ li{
   border: none;
   align-self: flex-end;
   box-shadow: 0 0 3px inset black;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
 
 }
 
@@ -139,7 +142,41 @@ p, a{
   margin-bottom: 2%;
 }
 
+.flex-query{
+  display: flex;
+  flex-direction: column;
+}
 
+
+@media  screen and (min-width: 412px) {
+  .cst-nav{
+    width: 12%;
+  }
+}
+
+@media screen and (min-width: 500px) {
+  .cst-nav{
+    width: 8%;
+  }
+}
+
+@media screen and (min-width: 645px) {
+  .cst-nav{
+    display: none;
+  }
+  .wrap-nav-options{
+    display: flex;
+    flex-direction: row;
+
+  }
+  
+}
+
+@media screen and (min-width: 826px) {
+  .wrap-proj-sec{
+    padding: 3%;
+  }
+}
 
 @media screen and (max-width: 1130px) {
   .cst-flex-basis{
