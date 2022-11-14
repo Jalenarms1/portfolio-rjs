@@ -3,7 +3,7 @@
 }
 
 .contain-all{
-  background-image: linear-gradient(rgba(9, 9, 71, 0.85), rgba(43, 22, 57, 0.85)),
+  background-image: linear-gradient(rgba(9, 9, 71, 0.85), rgba(77, 48, 96, 0.6)),
                 url("https://coolbackgrounds.io/images/unsplash/samuel-zeller-medium-b832fe04.jpg");
     background-repeat: no-repeat;
     background-size: cover;
@@ -49,6 +49,8 @@ li{
   width: 15%;
   border: none;
   align-self: flex-end;
+  box-shadow: 0 0 3px inset black;
+
 }
 
 .nav-bg > a:hover {
@@ -132,7 +134,12 @@ p, a{
   background-color: rgb(102, 86, 174);
   border-radius: 25px;
   width: fit-content;
+  border: none;
+  width: 100%;
+  margin-bottom: 2%;
 }
+
+
 
 @media screen and (max-width: 1130px) {
   .cst-flex-basis{

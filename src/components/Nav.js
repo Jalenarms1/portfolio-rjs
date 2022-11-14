@@ -1,5 +1,5 @@
 import React, {useState} from 'react'
-import { useLocation } from 'react-router-dom'
+import { Link, useLocation } from 'react-router-dom'
 
 export default function Nav() {
   const location = useLocation();
@@ -20,8 +20,8 @@ export default function Nav() {
                     <span className='border-bottom border-dark border-2 w-100 my-1'></span>
                 </button>
                 {showNav && <div className='wrap-nav-options d-flex flex-column w-100'>
-                    <a className="navbar-brand text-white cst-link px-3" href="https://github.com/jalenarms1" target="_blank" rel="noreferrer">Github</a>
-                    <a href="/contact" className="navbar-brand text-white cst-link px-3" data-bs-toggle="modal"  data-bs-target="#contactModal">Contact</a>
+                    <button className="navbar-brand text-white cst-link px-3"><Link to="/portfolio" style={{textDecoration: 'none', color: 'white', display: 'block'}}>Project Catalog</Link></button>
+                    <button className="navbar-brand text-white cst-link px-3"><Link to="/contact" style={{textDecoration: 'none', color: 'white', display: 'block'}}>Contact</Link></button>
                 </div>}
 
             </div>
