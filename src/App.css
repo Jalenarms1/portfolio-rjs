@@ -17,7 +17,7 @@
 }
 
 li{
-  margin: 5% 0;
+  margin: 2% 0;
 }
 
 
@@ -175,6 +175,23 @@ p, a{
 @media screen and (min-width: 826px) {
   .wrap-proj-sec{
     padding: 3%;
+  }
+
+  .all-skills-wrap{
+    display: flex;
+    justify-content: space-evenly;
+  }
+
+  .wrap-about{
+    width: 70%;
+    margin: auto;
+  }
+
+  .wrap-contact-info{
+    width: 70%;
+    margin: auto;
+    display: flex;
+    justify-content: space-around;
   }
 }
 
