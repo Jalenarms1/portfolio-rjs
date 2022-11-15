@@ -8,8 +8,8 @@ export default function ContactPage() {
             <h1 className="pb-2 text-warning fw-bold">Contact</h1>
         </div>
 
-        <div id="proj-coll" className="wrap-proj-sec d-flex flex-wrap m-auto pb-2">
-            <div className=" cst-wrap d-flex m-auto flex-wrap"> 
+        <div id="proj-coll" className="wrap-proj-sec d-flex flex-wrap m-auto pb-5">
+            <div className="cst-wrap d-flex m-auto flex-wrap"> 
                 <Contact />
 
             </div>
