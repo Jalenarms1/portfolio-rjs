@@ -92,7 +92,7 @@ p, a{
   margin: auto;
   background-color: #2f274b;
   box-shadow: 0 0 5px inset black;
-  /* margin-bottom: 8%; */
+  margin-bottom: 20%;
   height: 100%;
   position: relative;
 }
@@ -101,7 +101,9 @@ p, a{
   background-color: #c9c9c9;
   box-shadow: 0 0 5px inset black;
   width: 100%;
-  margin-top: 5%;
+  position: fixed;
+  bottom: 0;
+  /* margin-top: 5%; */
   
 }
 
@@ -250,6 +252,12 @@ p, a{
 
  
   
+}
+
+@media screen and (max-width: 490px) {
+  .proj-container {
+    margin-bottom: 50%;
+  }
 }
 
 
