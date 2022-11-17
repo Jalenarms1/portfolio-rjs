@@ -47,6 +47,10 @@ li{
   margin-bottom: 1%;
 }
 
+.key-skills{
+  width: 50%;
+}
+
 .cst-nav{
   width: 15%;
   border: none;
@@ -97,6 +101,32 @@ p, a{
   position: relative;
 }
 
+.all-skills-wrap{
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  width:100%;
+}
+
+.cst-card{
+  width: 25rem;
+  border: 1px solid black;
+  /* border: 2px solid rgb(49, 48, 48); */
+  border-radius: 5px;
+  margin: 3% 0;
+}
+
+.cst-li{
+  box-shadow: 0 0 2px inset black;
+}
+
+.cst-cTitle{
+  box-shadow: 0 0 2px inset black;
+  }
+.cst-cBody{
+  box-shadow: 0 0 2px inset black;
+  background-color: #5a507e;
+}
 .footer-bg{
   background-color: #c9c9c9;
   box-shadow: 0 0 5px inset black;
@@ -155,6 +185,12 @@ p, a{
   flex-direction: column;
 }
 
+.wrap-text{
+  width: 85%;
+  margin: 0 auto;
+  display: flex;
+}
+
 
 @media  screen and (min-width: 412px) {
   .cst-nav{
@@ -203,9 +239,21 @@ p, a{
   }
 }
 
+@media screen and (min-width: 1010px) {
+  .cst-card{
+    width: 18rem;
+  }
+}
+
 @media screen and (max-width: 1130px) {
   .cst-flex-basis{
       width: 45%;
+  }
+}
+
+@media screen and (max-width: 992px) {
+  .wrap-text{
+    flex-direction: column;
   }
 }
 
@@ -227,6 +275,10 @@ p, a{
 
   .cst-flex-basis{
       width: 90%;
+  }
+
+  .key-skills{
+    width: 100%;
   }
 
  
@@ -257,6 +309,9 @@ p, a{
 @media screen and (max-width: 490px) {
   .proj-container {
     margin-bottom: 50%;
+  }
+  .cst-card{
+    width: 15rem;
   }
 }
 
