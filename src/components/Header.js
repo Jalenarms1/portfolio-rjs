@@ -38,7 +38,6 @@ export default function Header () {
                 
                 <div className='d-flex w-50 justify-content-end'>
                     <button className="mx-2 cst-link px-3 py-1" style={activeLinkStyle('/')}><Link to="/" style={nestedActiveLink('/')}>Projects</Link></button>
-                    <button className="mx-2 cst-link px-3 py-1" style={activeLinkStyle('/about')}><Link to="/about" style={nestedActiveLink('/portfolio')}>About</Link></button>
                     <button className="mx-2 cst-link px-3 py-1" style={activeLinkStyle('/contact')}><Link to="/contact" style={nestedActiveLink('/contact')}>Contact</Link></button>
                 </div>
                 

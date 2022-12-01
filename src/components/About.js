@@ -4,16 +4,11 @@ export default function About() {
   return (
    <>
     <div className='wrap-about'>
-        <div className='wrap-text'>
-            <p className='text-light'>I am a full-stack developer out of Phoenix, AZ. Coding has grown to be a passion of mine. I enjoy the constant problem solving and embrace the challenges it brings</p>
-            <p className='text-light'>I hold myself to a high standard in anything that I do. I like to push myself to reach new limits and am not statisfied with anything less out of my work.</p>
-
-        </div>
         <div className='all-skills-wrap'>
 
             <div className='key-sills text-warning'>
-                <div className='cst-card'>
-                    <div className='card-title d-flex justify-content-center cst-cTitle p-2 bg-warning text-dark'>
+                <div className='cst-card '>
+                    <div className='card-title  d-flex justify-content-center cst-cTitle p-2 bg-warning text-dark'>
                         <h3 className='fw-bold '>Key qualities</h3>
                     </div>
                     <div className='card-body cst-cBody text-dark p-2'>
@@ -35,8 +30,8 @@ export default function About() {
 
             </div>
             <div className='key-sills text-warning'>
-                <div className='cst-card bg-warning'>
-                    <div className='card-title d-flex justify-content-center rounded cst-cTitle p-2 bg-warning text-dark'>
+                <div className='cst-card  '>
+                    <div className='card-title  d-flex justify-content-center  cst-cTitle p-2 bg-warning text-dark'>
                         <h3 className='fw-bold'>Strong suits </h3>
                     </div>
                     <div className='card-body cst-cBody text-dark p-2'>
@@ -58,6 +53,11 @@ export default function About() {
 
             </div>
             
+        </div>
+        <div className='wrap-text'>
+            <p className='text-light text-text my-2'>I am a full-stack developer out of Phoenix, AZ. I enjoy the constant problem solving and embrace the challenges it brings</p>
+            <p className='text-light text-text my-2 '>I hold myself to a high standard in anything that I do. I like to push myself to reach new limits and am not statisfied with anything less out of my work.</p>
+
         </div>
     </div>
    </>

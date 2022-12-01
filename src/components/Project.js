@@ -6,10 +6,11 @@ export default function Project() {
     <>
         {projects.map(project => {
             return (
-                <div className="card mx-2 cst-flex-basis my-2 bg-dark" style={{width: '15rem'}}>
+                <div className="card mx-2 cst-flex-basis my-2 bg-dark" style={{width: '20rem'}}>
                     <img src={project.imageUrl}  className="card-img-top" alt="..." />
                     <div className="card-body">
                         <h5 className="card-title text-light">{project.title}</h5>
+                        <p  className='text-light'>Technologies: {project.languages}</p>
                     </div>
                     <div className="wrap-btn d-flex flex-column p-2">
                         <a href={project.liveUrl} target="_blank" className="btn btn-warning my-1" rel='noreferrer'>Test</a>

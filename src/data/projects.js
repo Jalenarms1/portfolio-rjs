@@ -3,36 +3,41 @@ export const projects = [
         title: `The Chef's Hat`,
         imageUrl: `https://res.cloudinary.com/dvlhy87zl/image/upload/v1665627310/e0kuzj637lckvdvtokat.png`,
         liveUrl: `https://fathomless-oasis-00735.herokuapp.com/`,
+        languages: 'Node.js, Express.js, MySQL, Handlebars.js',
         githubUrl: `https://github.com/Jalenarms1/the-chefs-hat`
     },
     {
         title: `Flic Finder`,
         imageUrl: `https://res.cloudinary.com/dvlhy87zl/image/upload/v1668385635/flic-finder-img_jolkrv.png`,
         liveUrl: `https://jalenarms1.github.io/flic-finder-rjs/`,
+        languages: 'React JS',
         githubUrl: `https://github.com/Jalenarms1/flic-finder-rjs`
     },
     {
         title: `Book Search & Save`,
         imageUrl: `https://res.cloudinary.com/dvlhy87zl/image/upload/v1669066056/booksearchimg_jwsafl.png`,
         liveUrl: `https://damp-eyrie-96065.herokuapp.com/`,
+        languages: 'React JS, Node.js, Express.js, MongoDB, GraphQL',
         githubUrl: `https://github.com/Jalenarms1/new-graphql-refactor`
     },
     {
         title: `Tech Talk`,
         imageUrl: `https://res.cloudinary.com/dvlhy87zl/image/upload/v1665628963/eevw5aivrbderwgq74up.png`,
         liveUrl: `https://aqueous-taiga-83083.herokuapp.com/`,
+        languages: 'Node.js, Express.js, MySQL, Handlebars.js',
         githubUrl: `https://github.com/Jalenarms1/node-tech-blog`
     },
     {
         title: `Movie Night Mania`,
         imageUrl: `https://res.cloudinary.com/dvlhy87zl/image/upload/v1665626928/kmxrox01y8kkdhutskqp.png`,
         liveUrl: `https://jesus-orduno.github.io/movie-night-mania/`,
+        languages: 'jQuery, HTML, CSS',
         githubUrl: `https://github.com/jesus-orduno/movie-night-mania`
     },
-    {
-        title: `What to do, What to do`,
-        imageUrl: `https://res.cloudinary.com/dvlhy87zl/image/upload/v1665580999/qix2bwkduojbe6s1dsns.png`,
-        liveUrl: `https://jalenarms1.github.io/todo-list-project/`,
-        githubUrl: `https://github.com/Jalenarms1/todo-list-project`
-    },
+    // {
+    //     title: `What to do, What to do`,
+    //     imageUrl: `https://res.cloudinary.com/dvlhy87zl/image/upload/v1665580999/qix2bwkduojbe6s1dsns.png`,
+    //     liveUrl: `https://jalenarms1.github.io/todo-list-project/`,
+    //     githubUrl: `https://github.com/Jalenarms1/todo-list-project`
+    // },
 ]

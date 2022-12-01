@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:ital@1&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata&display=swap');
 .App {
   text-align: center;
 }
@@ -9,6 +11,7 @@
   height: fit-content;
   margin: 0;
   padding: 0;
+  font-family: 'Inconsolata', monospace;
   
 }
 
@@ -69,8 +72,7 @@ li{
 }
 
 h1, h2, h3, h4{
-  font-family: 'Josefin Sans', sans-serif;
-}
+  font-family: 'Inconsolata', monospace;}
 
 p, a{
   font-family: 'Dosis', sans-serif;
@@ -103,16 +105,16 @@ p, a{
 
 .all-skills-wrap{
   display: flex;
+  flex-direction: column;
   justify-content: space-around;
   flex-wrap: wrap;
-  width:100%;
+  width:80%;
 }
 
 .cst-card{
   width: 25rem;
   border: 1px solid black;
   /* border: 2px solid rgb(49, 48, 48); */
-  border-radius: 5px;
   margin: 3% 0;
 }
 
@@ -185,9 +187,21 @@ p, a{
 }
 
 .wrap-text{
-  width: 85%;
+  width: 60%;
   margin: 0 auto;
   display: flex;
+  flex-direction: column;
+}
+
+.text-text {
+  font-family: 'Roboto Mono', monospace;
+  line-height: 2.5;
+}
+
+.wrap-about{
+  width: 80%;
+  display: flex;
+  margin: auto;
 }
 
 
@@ -226,7 +240,8 @@ p, a{
   }
 
   .wrap-about{
-    width: 70%;
+    width: 80%;
+    display: flex;
     margin: auto;
   }
 
@@ -253,6 +268,15 @@ p, a{
 @media screen and (max-width: 992px) {
   .wrap-text{
     flex-direction: column;
+    width: 80%;
+    order: 1;
+  }
+  .wrap-about{
+    flex-direction: column;
+    align-items: center;
+  }
+  .all-skills-wrap{
+    order: 2
   }
 }
 
