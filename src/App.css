@@ -204,6 +204,12 @@ p, a{
   margin: auto;
 }
 
+.wrap-opt{
+  display: flex;
+  width: 50%;
+  justify-content: flex-end;
+}
+
 
 @media  screen and (min-width: 412px) {
   .cst-nav{
@@ -324,9 +330,24 @@ p, a{
       overflow-x:hidden;
       justify-content: center;
  }
-
- 
   
+}
+
+@media screen and (max-width: 590px) {
+ .wrap-name{
+  flex-direction: column;
+
+ }
+ .cst-link{
+  width: 50%;
+
+  
+ }
+ .wrap-opt{
+  width: 100%;
+  justify-content: center;
+  margin: 2% 0;
+ }
 }
 
 @media screen and (max-width: 490px) {
