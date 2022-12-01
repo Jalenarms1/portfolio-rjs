@@ -43,8 +43,8 @@ export default function Nav() {
                     <span className='border-bottom border-dark border-2 w-100 my-1'></span>
                 </button>
                 {(showNav || windowWidth > 644) && <div className='wrap-nav-options w-100'>
-                    <button className="navbar-brand cst-link px-3" style={activeLinkStyle('/')}><Link to="/" style={nestedActiveLink('/')}>About</Link></button>
-                    <button className="navbar-brand cst-link px-3" style={activeLinkStyle('/portfolio')}><Link to="/portfolio" style={nestedActiveLink('/portfolio')}>Project Catalog</Link></button>
+                    <button className="navbar-brand cst-link px-3" style={activeLinkStyle('/')}><Link to="/" style={nestedActiveLink('/')}>Projects</Link></button>
+                    <button className="navbar-brand cst-link px-3" style={activeLinkStyle('/portfolio')}><Link to="/about" style={nestedActiveLink('/portfolio')}>About</Link></button>
                     <button className="navbar-brand cst-link px-3" style={activeLinkStyle('/contact')}><Link to="/contact" style={nestedActiveLink('/contact')}>Contact</Link></button>
                 </div>}
 

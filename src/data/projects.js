@@ -12,6 +12,12 @@ export const projects = [
         githubUrl: `https://github.com/Jalenarms1/flic-finder-rjs`
     },
     {
+        title: `Book Search & Save`,
+        imageUrl: `https://res.cloudinary.com/dvlhy87zl/image/upload/v1669066056/booksearchimg_jwsafl.png`,
+        liveUrl: `https://damp-eyrie-96065.herokuapp.com/`,
+        githubUrl: `https://github.com/Jalenarms1/new-graphql-refactor`
+    },
+    {
         title: `Tech Talk`,
         imageUrl: `https://res.cloudinary.com/dvlhy87zl/image/upload/v1665628963/eevw5aivrbderwgq74up.png`,
         liveUrl: `https://aqueous-taiga-83083.herokuapp.com/`,

@@ -11,15 +11,14 @@ function App() {
   return (
     <>  
       <div className='contain-all'>
-        <Header />
         <HashRouter>
-          <Nav />
+          <Header />
           <div className="proj-container d-flex flex-column justify-content-center rounded">
             
               <Routes>
-                <Route path='/' element={<AboutPage />} />
+                <Route path='/' element={<PortfolioPage />} />
                 <Route path='/contact' element={<ContactPage />} />
-                <Route path='/portfolio' element={<PortfolioPage />} />
+                <Route path='/about' element={<AboutPage />} />
                 
               </Routes>
           </div>

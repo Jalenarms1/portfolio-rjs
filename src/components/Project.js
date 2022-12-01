@@ -12,8 +12,8 @@ export default function Project() {
                         <h5 className="card-title text-light">{project.title}</h5>
                     </div>
                     <div className="wrap-btn d-flex flex-column p-2">
-                        <a href={project.liveUrl} target="_blank" className="btn btn-warning my-1" rel='noreferrer'>Test Live</a>
-                        <a href={project.githubUrl} target="_blank" className="btn btn-warning my-1" rel='noreferrer'>View code repo</a>
+                        <a href={project.liveUrl} target="_blank" className="btn btn-warning my-1" rel='noreferrer'>Test</a>
+                        <a href={project.githubUrl} target="_blank" className="btn btn-warning my-1" rel='noreferrer'>View code</a>
 
                     </div>
                 </div>

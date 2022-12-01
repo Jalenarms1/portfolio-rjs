@@ -173,11 +173,10 @@ p, a{
 
 .cst-link{
   background-color: rgb(102, 86, 174);
-  border-radius: 25px;
-  width: fit-content;
   border: none;
-  width: 100%;
   margin-bottom: 2%;
+  border-radius: 25px;
+  
 }
 
 .flex-query{
