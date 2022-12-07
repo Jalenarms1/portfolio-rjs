@@ -1,5 +1,13 @@
 export const projects = [
     {
+        title: `Shop Shop`,
+        imageUrl: `https://res.cloudinary.com/dvlhy87zl/image/upload/v1670383278/Home_geatat.png`,
+        liveUrl: `https://mysterious-brushlands-70155.herokuapp.com/`,
+        languages: 'React JS, Node.js, GraphQL, MongoDB / Mongoose, JWT',
+        githubUrl: `https://github.com/zhaihan001/Team-Project3-Shop-Shop`
+
+    },
+    {
         title: `The Chef's Hat`,
         imageUrl: `https://res.cloudinary.com/dvlhy87zl/image/upload/v1665627310/e0kuzj637lckvdvtokat.png`,
         liveUrl: `https://fathomless-oasis-00735.herokuapp.com/`,
