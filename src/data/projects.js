@@ -1,7 +1,7 @@
 export const projects = [
     {
         title: `Shop Shop`,
-        imageUrl: `https://res.cloudinary.com/dvlhy87zl/image/upload/v1670383278/Home_geatat.png`,
+        imageUrl: `https://res.cloudinary.com/dvlhy87zl/image/upload/v1671233451/shopimg_cjfwih.png`,
         liveUrl: `https://mysterious-brushlands-70155.herokuapp.com/`,
         languages: 'React JS, Node.js, GraphQL, MongoDB / Mongoose, JWT',
         githubUrl: `https://github.com/zhaihan001/Team-Project3-Shop-Shop`
